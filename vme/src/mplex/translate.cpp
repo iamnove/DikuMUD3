@@ -22,6 +22,8 @@
 #include "mplex.h"
 #include "ttydef.h"
 
+#include "translate.h"
+
 static ubit8 default_colours[3][24] =
 {
     /* Default (no change in table) */
