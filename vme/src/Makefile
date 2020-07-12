@@ -109,7 +109,7 @@ LD := g++
 TAR := tar
 
 # C++ flags
-CXXFLAGS := $(MPLEX_INC) $(DEBUG) $(SYSPORT) $(SYSFLAGS)
+CXXFLAGS := -std=c++11 $(MPLEX_INC) $(DEBUG) $(SYSPORT) $(SYSFLAGS)
  
 
 # linker flags
